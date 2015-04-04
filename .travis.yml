@@ -4,7 +4,6 @@ compiler:
   - clang
   - cmake
 
-sudo: required
 before_script:
   - sudo add-apt-repository ppa:v-launchpad-jochen-sprickerhof-de/pcl
   - sudo apt-get update
