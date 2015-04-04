@@ -3,5 +3,7 @@ compiler:
   - gcc
   - clang
   - cmake
+
+install: libpcl-all
 # Change this to your needs
 script: cmake . && make
