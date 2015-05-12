@@ -1,8 +1,6 @@
 language: cpp
 compiler:
   - gcc
-  - clang
-  - cmake
 
 before_script:
   - sudo add-apt-repository ppa:v-launchpad-jochen-sprickerhof-de/pcl -y
